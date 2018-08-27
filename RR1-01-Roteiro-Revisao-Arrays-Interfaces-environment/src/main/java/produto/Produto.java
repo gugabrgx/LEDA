@@ -8,7 +8,6 @@ public class Produto {
 	private String descricao;
 
 	public Produto(int codigo, String nome, double preco, String descricao) {
-		super();
 		this.codigo = codigo;
 		this.nome = nome;
 		this.preco = preco;

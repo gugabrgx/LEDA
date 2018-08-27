@@ -57,7 +57,6 @@ public class RepositorioProdutoArrayList {
 	 */
 	public boolean existe(int codigo) {
 		boolean retorno = false;
-		
 		if (this.procurarIndice(codigo) != -1) {
 			retorno = true;
 		}
@@ -68,8 +67,10 @@ public class RepositorioProdutoArrayList {
 	 * Insere um novo produto (sem se preocupar com duplicatas)
 	 */
 	public void inserir(Produto produto) {
-		// TODO Implement your code here
-		throw new UnsupportedOperationException("Not implemented yet!");
+		if (produto != null) 
+			this.produtos.add(produto);
+		else 
+			throw new UnsupportedOperationException("Produto nulo!");
 	}
 
 	/**
