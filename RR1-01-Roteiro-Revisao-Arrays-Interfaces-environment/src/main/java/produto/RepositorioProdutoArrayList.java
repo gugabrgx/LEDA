@@ -80,7 +80,7 @@ public class RepositorioProdutoArrayList {
 	 * utilizado.
 	 */
 	public void atualizar(Produto produto) {
-		if (produto == null) throw new UnsupportedOperationException("Produto nulo!");
+		if (!produtos.contains(produto)) throw new UnsupportedOperationException("Produto nulo!");
 		int indexProduto = this.procurarIndice(produto.getCodigo());
 		this.produtos.set(indexProduto, produto);
 	}
