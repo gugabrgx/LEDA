@@ -1,7 +1,7 @@
 produto/RepositorioProdutoPerecivelArray.class
 solucao/produto/RepositorioProdutoNaoPerecivelArray.class
-conta/Conta.class
 conta/ContaAbstrata.class
+conta/Conta.class
 solucao/produto/RepositorioProdutos.class
 repositorio/RepositorioConta.class
 produto/TestRepositorioProdutos.class
@@ -15,8 +15,8 @@ cliente/RepositorioClientesArray.class
 conta/RepositorioContasArray.class
 conta/ContaImposto.class
 solucao/vetor/ComparadorMinimo.class
-cliente/Cliente.class
 solucao/produto/RepositorioProdutoArrayList.class
+cliente/Cliente.class
 solucao/vetor/Vetor.class
 vetor/Vetor.class
 repositorio/RepositorioGenerico.class
