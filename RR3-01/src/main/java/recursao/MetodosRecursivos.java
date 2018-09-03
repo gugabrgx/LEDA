@@ -2,24 +2,34 @@ package recursao;
 
 public class MetodosRecursivos {
 
-	public int calcularSomaArray(int[] array){
+	public int calcularSomaArray(int[] array) {
 		int result = 0;
 		// TODO ESCREVA AQUI O CÓDIGO (USANDO RECURSAO) PARA CALCULAR A SOMA
 		// DOS EMENTOS DE UM ARRAY
 		return result;
 	}
+
 	public long calcularFatorial(int n) {
 		long result = 1;
-		// TODO ESCREVA AQUI O CÓDIGO (USANDO RECURSAO) PARA CALCULAR E IMPRIMIR
-		// O FATORIAL DO PARAMETRO
-		// DE ACORDO COM O QUE FOI MOSTRADO NO EXERCCICIO. OBSERVE QUE SENDO O
-		// METODO
-		// RECURSIVO, O FATORIAL DOS NUMEROS ANTERIORES TAMBEM VAO SER IMPRESSOS
+		if (n == 0)
+			result = 1;
+		else
+			result = n * calcularFatorial(n - 1);
+		System.out.println(n + "! = " + result);
 		return result;
 	}
 
 	public int calcularFibonacci(int n) {
 		int result = 1;
+
+		if (n == 1 || n == 2) {
+			result = 1;
+		} else {
+			result = calcularFibonacci(n - 1) + calcularFibonacci(n - 2);
+		}
+
+		System.out.print(result + ", ");
+		return result;
 		// TODO ESCREVA AQUI O CÓDIGO (USANDO RECURSAO) PARA CALCULAR E IMPRIMIR
 		// O N-ESIMO TERMO
 		// DA SEQUENCIA DE FIBONACCI, QUE TEM A SEGUINTE LEI DE FORMACAO: O
@@ -29,7 +39,6 @@ public class MetodosRecursivos {
 		// PELA SOMA DOS OUTROS DOIS ANTERIORES. OBSERVE QUE SENDO O METODO
 		// RECURSIVO, O FIBONACCI DOS NUMEROS ANTERIORES TAMBEM VAO SER
 		// IMPRESSOS
-		return result;
 	}
 
 	public int countNotNull(Object[] array) {
@@ -63,6 +72,5 @@ public class MetodosRecursivos {
 		// DA PROGRESSAO GEOMETRICA, DADO O TERMO INICIAL E A RAZAO
 		return result;
 	}
-	
-	
+
 }
