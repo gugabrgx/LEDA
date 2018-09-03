@@ -30,6 +30,7 @@ public class MetodosRecursivos {
 
 		System.out.print(result + ", ");
 		return result;
+		
 		// TODO ESCREVA AQUI O CÓDIGO (USANDO RECURSAO) PARA CALCULAR E IMPRIMIR
 		// O N-ESIMO TERMO
 		// DA SEQUENCIA DE FIBONACCI, QUE TEM A SEGUINTE LEI DE FORMACAO: O
