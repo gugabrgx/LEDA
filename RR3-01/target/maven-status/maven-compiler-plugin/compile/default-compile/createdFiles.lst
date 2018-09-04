@@ -1,11 +1,11 @@
-solucao/vetor/ComparadorMaximo.class
 solucao/recursao/MetodosRecursivos.class
-vetor/TestarVetor.class
-recursao/GeradorSequencia.class
-recursao/ExemplosRecursao.class
 solucao/vetor/ComparadorMinimo.class
-recursao/MetodosRecursivos.class
 solucao/vetor/TesteVetor.class
+recursao/MetodosRecursivos.class
 solucao/vetor/Vetor.class
 vetor/Vetor.class
+solucao/vetor/ComparadorMaximo.class
+recursao/GeradorSequencia.class
+vetor/TestarVetor.class
+recursao/ExemplosRecursao.class
 vetor/Aluno.class
