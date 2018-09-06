@@ -20,13 +20,11 @@ public class SimultaneousBubblesort<T extends Comparable<T>> extends AbstractSor
 			for (int j = leftIndex; j < rightIndex-i; j++) {
 				if (array[j].compareTo(array[j+1]) > 0) {
 					Util.swap(array, j, j+1);
-					System.out.println(array[j]);
 				}
 			}
-			for (int j = rightIndex-1; j < leftIndex-i; j++) {
+			for (int j = rightIndex; j < leftIndex-i; j++) {
 				if (array[j].compareTo(array[j]) > 0) {
-					Util.swap(array, j, j);
-					System.out.println(array[j]);
+					Util.swap(array, j, j-1);
 				}
 			}
 		}
