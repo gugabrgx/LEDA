@@ -1,7 +1,5 @@
 package sorting.variationsOfBubblesort;
 
-import java.util.Arrays;
-
 import sorting.AbstractSorting;
 import util.Util;
 
@@ -16,18 +14,23 @@ import util.Util;
  */
 public class SimultaneousBubblesort<T extends Comparable<T>> extends AbstractSorting<T> {
 	public void sort(T[] array, int leftIndex, int rightIndex) {
-		for (int i = leftIndex; i < rightIndex; i++) {
-			for (int j = leftIndex; j < rightIndex-i; j++) {
-				if (array[j].compareTo(array[j+1]) > 0) {
-					Util.swap(array, j, j+1);
+		boolean swap = true;
+		while (swap && leftIndex < rightIndex - 2) {
+			swap = false;
+			for (int i = leftIndex; i < rightIndex-1; i = i + 1) {
+				if (array[i].compareTo(array[i + 1]) > 0) {
+					Util.swap(array, i, i+1);
+					swap = true;
 				}
 			}
-			for (int j = rightIndex; j < leftIndex-i; j++) {
-				if (array[j].compareTo(array[j]) > 0) {
-					Util.swap(array, j, j-1);
+			rightIndex--;
+			for (int i = array.length-1; i > leftIndex; i = i - 1) {
+				if (array[i].compareTo(array[i - 1]) < 0) {
+					Util.swap(array, i, i-1);
+					swap = true;
 				}
 			}
+			leftIndex++;
 		}
-		System.out.println("Final sort:" + Arrays.toString(array) + "\n");
 	}
 }
