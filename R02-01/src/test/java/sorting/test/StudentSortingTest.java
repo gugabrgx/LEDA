@@ -39,8 +39,8 @@ public class StudentSortingTest {
 	 * do aluno
 	 */
 	private void getImplementation() {
-//		this.implementation = new QuickSort<Integer>();
-		this.implementation = new MergeSort<Integer>();
+		this.implementation = new QuickSort<Integer>();
+//		this.implementation = new MergeSort<Integer>();
 //		this.implementation = new ThreeWayQuickSort<Integer>();
 	}
 
