@@ -1,9 +1,5 @@
 package sorting.divideAndConquer;
 
-import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.List;
-
 import sorting.AbstractSorting;
 
 /**
@@ -14,41 +10,49 @@ import sorting.AbstractSorting;
  */
 public class MergeSort<T extends Comparable<T>> extends AbstractSorting<T> {
 
-	@Override
-	public void sort(T[] array, int leftIndex, int rightIndex) {
-		if (array != null && leftIndex < rightIndex && rightIndex >= 0 && leftIndex < array.length
-				&& array.length != 1) {
-			T[] esquerda = Arrays.copyOfRange(array, leftIndex, rightIndex/2);
-			T[] direita = Arrays.copyOfRange(array, rightIndex/2+1, rightIndex);
-			sort(esquerda, leftIndex, rightIndex/2);
-			sort(direita, rightIndex/2+1, rightIndex);
-			merge(esquerda, direita);
-		}
-	}
+   @Override
+   public void sort(T[] array, int leftIndex, int rightIndex) {
+      if (array != null && leftIndex < rightIndex && leftIndex >= 0 && rightIndex < array.length && array.length > 0) {
+         int meio = ((rightIndex + leftIndex) / 2);
+         sort(array, leftIndex, meio);
+         sort(array, meio + 1, rightIndex);
+         merge(array, leftIndex, meio, rightIndex);
+      }
+   }
 
-	private List<T> merge(T[] esquerda, T[] direita) {
-		List<T> result = new LinkedList<T>();
+   @SuppressWarnings("unchecked")
+   public void merge(T[] array, int leftIndex, int middle, int rightIndex) {
+      T[] copia = (T[]) new Comparable[array.length];
 
-		while (esquerda.length > 0 && direita.length > 0) {
-			if (esquerda[0].compareTo(direita[0]) <= 0) {
-				result.add(esquerda[0]);
-				esquerda = Arrays.copyOfRange(esquerda, 1, esquerda.length); 
-			} else {
-				result.add(direita[0]);
-				direita = Arrays.copyOfRange(direita, 1, direita.length); 
-			}
-		}
-		if (esquerda.length > 0) {
-			for (int i = 0; i < esquerda.length; i++) {
-				result.add(esquerda[i]);
-			}
-		}
-		if (direita.length > 0) {
-			for (int i = 0; i < direita.length; i++) {
-				result.add(direita[i]);
-			}
-		}
-		System.out.println(result);
-		return result;
-	}
+      for (int i = leftIndex; i <= rightIndex; i++) {
+         copia[i] = array[i];
+      }
+
+      int i = leftIndex;
+      int j = middle + 1;
+      int k = leftIndex;
+
+      while (i <= middle && j <= rightIndex) {
+         if (copia[i].compareTo(copia[j]) < 0) {
+            array[k] = copia[i];
+            i++;
+         } else {
+            array[k] = copia[j];
+            j++;
+         }
+         k++;
+      }
+
+      while (i <= middle) {
+         array[k] = copia[i];
+         i++;
+         k++;
+      }
+
+      while (j <= rightIndex) {
+         array[k] = copia[j];
+         j++;
+         k++;
+      }
+   }
 }

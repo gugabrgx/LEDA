@@ -9,6 +9,7 @@ import org.junit.Test;
 import sorting.AbstractSorting;
 import sorting.divideAndConquer.MergeSort;
 import sorting.divideAndConquer.QuickSort;
+import sorting.divideAndConquer.threeWayQuicksort.ThreeWayQuickSort;
 
 public class StudentSortingTest {
 
@@ -38,9 +39,9 @@ public class StudentSortingTest {
 	 * do aluno
 	 */
 	private void getImplementation() {
-		// TODO O aluno deve instanciar sua implementação abaixo ao invés de
-		// null
+//		this.implementation = new QuickSort<Integer>();
 		this.implementation = new MergeSort<Integer>();
+//		this.implementation = new ThreeWayQuickSort<Integer>();
 	}
 
 	public void populaVetorTamanhoPar(Integer[] arrayPadrao) {
@@ -80,26 +81,39 @@ public class StudentSortingTest {
 		genericTest(vetorTamPar);
 	}
 
-//	@Test
+	@Test
 	public void testSort02() {
 		genericTest(vetorTamImpar);
 	}
 
-//	@Test
+	@Test
 	public void testSort03() {
 		genericTest(vetorVazio);
 	}
 
-//	@Test
+	@Test
 	public void testSort04() {
 		genericTest(vetorValoresIguais);
 	}
 
-//	@Test
+	@Test
 	public void testSort05() {
 		genericTest(vetorValoresRepetidos);
 	}
 
+	@Test
+	public void testSort06() {
+		int qnt = 20000;
+		Integer[] array = new Integer[qnt];
+		for (int i = 0; i < array.length; i++) {
+			array[i] = (int) (Math.random()*qnt);
+		}
+		long inicio = System.currentTimeMillis();
+		genericTest(array);
+		long fim = System.currentTimeMillis();
+		System.out.println("Executado em = " + (fim-inicio) + "ms");
+	}
+	
 	// MÉTODOS QUE OS ALUNOS PODEM CRIAR
 	/**
 	 * O ALUNO PODE IMPLEMENTAR METODOS DE ORDENAÇÃO TESTANDO O SORT COM TRES
