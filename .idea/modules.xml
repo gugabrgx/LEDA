@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Algoritmos SORT/Algoritmos SORT.iml" filepath="$PROJECT_DIR$/../Algoritmos SORT/Algoritmos SORT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/R01-01/R01-01.iml" filepath="$PROJECT_DIR$/R01-01/R01-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/R02-01/R02-01.iml" filepath="$PROJECT_DIR$/R02-01/R02-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/R03-01/R03-01.iml" filepath="$PROJECT_DIR$/R03-01/R03-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RR1-01/RR1-01.iml" filepath="$PROJECT_DIR$/RR1-01/RR1-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RR2-01/RR2-01.iml" filepath="$PROJECT_DIR$/RR2-01/RR2-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RR3-01/RR3-01.iml" filepath="$PROJECT_DIR$/RR3-01/RR3-01.iml" />
+    </modules>
+  </component>
+</project>
