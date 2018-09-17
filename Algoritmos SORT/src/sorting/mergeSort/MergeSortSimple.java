@@ -1,4 +1,4 @@
-package mergeSort;
+package sorting.mergeSort;
 
 import java.util.Arrays;
 import java.util.LinkedList;

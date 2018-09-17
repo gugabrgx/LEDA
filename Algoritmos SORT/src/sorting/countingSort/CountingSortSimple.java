@@ -1,6 +1,4 @@
-package countingSort;
-
-import java.util.Arrays;
+package sorting.countingSort;
 
 /**
  *
