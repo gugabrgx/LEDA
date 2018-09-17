@@ -4,27 +4,14 @@
     <bookmark url="file://$PROJECT_DIR$/R03-01/src/main/java/sorting/linearSorting/CountingSort.java" line="17" />
     <bookmark url="file://$PROJECT_DIR$/Algoritmos SORT/src/sorting/gnomeSort/gnomeSortSimple.java" line="48" />
     <bookmark url="file://$PROJECT_DIR$/Algoritmos SORT/src/sorting/countingSort/CountingSortSimple.java" line="51" />
+    <bookmark url="file://$PROJECT_DIR$/R04-01/src/main/java/sorting/variationsOfBubblesort/CombSort.java" line="22" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="adb27d06-7f2a-4797-ba80-95873deed05b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Algoritmos SORT/src/sorting/Sorting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algoritmos SORT/src/sorting/gnomeSort/gnomeSortSimple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algoritmos SORT/Algoritmos SORT.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Algoritmos SORT/Algoritmos SORT.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algoritmos SORT/bin/countingSort/CountingSortSimple.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algoritmos SORT/bin/mergeSort/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algoritmos SORT/bin/mergeSort/MergeSortSimple.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algoritmos SORT/src/countingSort/CountingSortSimple.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algoritmos SORT/src/sorting/countingSort/CountingSortSimple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algoritmos SORT/src/mergeSort/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algoritmos SORT/src/sorting/mergeSort/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algoritmos SORT/src/mergeSort/MergeSortSimple.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algoritmos SORT/src/sorting/mergeSort/MergeSortSimple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/R01-01/R01-01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/R01-01/R01-01.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/R02-01/R02-01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/R02-01/R02-01.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/R03-01/R03-01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/R03-01/R03-01.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RR1-01/RR1-01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/RR1-01/RR1-01.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RR2-01/RR2-01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/RR2-01/RR2-01.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RR3-01/RR3-01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/RR3-01/RR3-01.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/R03-01/target/" />
     <ignored path="$PROJECT_DIR$/R01-01/target/" />
@@ -32,6 +19,7 @@
     <ignored path="$PROJECT_DIR$/RR1-01/target/" />
     <ignored path="$PROJECT_DIR$/RR2-01/target/" />
     <ignored path="$PROJECT_DIR$/RR3-01/target/" />
+    <ignored path="$PROJECT_DIR$/R04-01/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,25 +42,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="17" />
+          <entry key="java" value="34" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="17" />
+          <entry key="JAVA" value="34" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="55" />
+          <entry key="java" value="856" />
           <entry key="txt" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="55" />
+          <entry key="JAVA" value="856" />
           <entry key="PLAIN_TEXT" value="7" />
         </counts>
       </usages-collector>
@@ -109,32 +97,43 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Algoritmos SORT/src/sorting/gnomeSort/gnomeSortSimple.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Algoritmos SORT/src/sorting/combSort/combSortSimple.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="25" column="56" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/R04-01/src/test/java/sorting/test/StudentSortingTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="270">
+                  <caret line="104" column="24" selection-start-line="104" selection-start-column="24" selection-end-line="104" selection-end-column="24" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/R04-01/src/main/java/sorting/variationsOfBubblesort/CombSort.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="90">
+                  <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/R04-01/src/main/java/sorting/variationsOfBubblesort/CombSort.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="146">
+                  <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -156,6 +155,10 @@
         <option value="$PROJECT_DIR$/R03-01/src/main/java/util/Util.java" />
         <option value="$PROJECT_DIR$/Algoritmos SORT/src/sorting/gnomeSort/gnomeSortSimple.java" />
         <option value="$PROJECT_DIR$/Algoritmos SORT/src/sorting/combSort/combSortSimple.java" />
+        <option value="$PROJECT_DIR$/R03-01/src/test/java/sorting/test/StudentSortingTest.java" />
+        <option value="$PROJECT_DIR$/R04-01/src/main/java/sorting/variationsOfBubblesort/GnomeSort.java" />
+        <option value="$PROJECT_DIR$/R04-01/src/main/java/sorting/variationsOfBubblesort/CombSort.java" />
+        <option value="$PROJECT_DIR$/R04-01/src/test/java/sorting/test/StudentSortingTest.java" />
       </list>
     </option>
   </component>
@@ -193,57 +196,35 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="LEDA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algoritmos SORT" type="462c0819:PsiDirectoryNode" />
+              <item name="R04-01" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LEDA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algoritmos SORT" type="462c0819:PsiDirectoryNode" />
+              <item name="R04-01" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LEDA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algoritmos SORT" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sorting" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LEDA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algoritmos SORT" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sorting" type="462c0819:PsiDirectoryNode" />
-              <item name="gnomeSort" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LEDA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="R03-01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LEDA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="R03-01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LEDA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="R03-01" type="462c0819:PsiDirectoryNode" />
+              <item name="R04-01" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LEDA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="R03-01" type="462c0819:PsiDirectoryNode" />
+              <item name="R04-01" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LEDA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="R03-01" type="462c0819:PsiDirectoryNode" />
+              <item name="R04-01" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -251,31 +232,23 @@
             </path>
             <path>
               <item name="LEDA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="R03-01" type="462c0819:PsiDirectoryNode" />
+              <item name="R04-01" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="sorting" type="462c0819:PsiDirectoryNode" />
-              <item name="linearSorting" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LEDA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="R03-01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="variationsOfBubblesort" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537201625258" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Algoritmos SORT" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537215906996" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/R04-01" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -299,7 +272,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.gnomeSortSimple">
+  <component name="RunManager" selected="JUnit.StudentSortingTest">
     <configuration name="CountingSortSimple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sorting.countingSort.CountingSortSimple" />
       <module name="Algoritmos SORT" />
@@ -326,12 +299,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StudentSortingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="R04-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sorting.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sorting.test" />
+      <option name="MAIN_CLASS_NAME" value="sorting.test.StudentSortingTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentSortingTest.testSort06" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="R04-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sorting.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sorting.test" />
+      <option name="MAIN_CLASS_NAME" value="sorting.test.StudentSortingTest" />
+      <option name="METHOD_NAME" value="testSort06" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.CountingSortSimple" />
       <item itemvalue="Application.gnomeSortSimple" />
+      <item itemvalue="JUnit.StudentSortingTest" />
+      <item itemvalue="JUnit.StudentSortingTest.testSort06" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StudentSortingTest" />
+        <item itemvalue="JUnit.StudentSortingTest.testSort06" />
         <item itemvalue="Application.gnomeSortSimple" />
         <item itemvalue="Application.CountingSortSimple" />
       </list>
@@ -350,11 +357,43 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="StudentSortingTest - 2018.09.17 at 17h 13m 19s.xml">
+      <configuration name="StudentSortingTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentSortingTest - 2018.09.17 at 17h 14m 33s.xml">
+      <configuration name="StudentSortingTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentSortingTest - 2018.09.17 at 17h 15m 43s.xml">
+      <configuration name="StudentSortingTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentSortingTest - 2018.09.17 at 17h 15m 50s.xml">
+      <configuration name="StudentSortingTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentSortingTest - 2018.09.17 at 17h 16m 12s.xml">
+      <configuration name="StudentSortingTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentSortingTest - 2018.09.17 at 17h 16m 57s.xml">
+      <configuration name="StudentSortingTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentSortingTest - 2018.09.17 at 17h 18m 03s.xml">
+      <configuration name="StudentSortingTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentSortingTest - 2018.09.17 at 17h 19m 00s.xml">
+      <configuration name="StudentSortingTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentSortingTest_testSort06 - 2018.09.17 at 17h 19m 56s.xml">
+      <configuration name="StudentSortingTest.testSort06" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentSortingTest - 2018.09.17 at 17h 21m 31s.xml">
+      <configuration name="StudentSortingTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1920" height="1053" extended-state="7" />
+    <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10779082" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12753469" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -368,7 +407,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32901832" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50053364" side_tool="true" weight="0.32901832" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4994664" weight="0.32901832" />
@@ -379,7 +418,7 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" weight="0.2470651" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.226254" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -438,8 +477,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/R03-01/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="85" column="32" selection-start-line="85" selection-start-column="32" selection-end-line="85" selection-end-column="32" />
+        <state relative-caret-position="654">
+          <caret line="120" column="36" selection-start-line="120" selection-start-column="36" selection-end-line="120" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -485,10 +524,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/R03-01/src/test/java/sorting/test/StudentSortingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="100" column="4" lean-forward="true" selection-start-line="100" selection-start-column="4" selection-end-line="111" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Algoritmos SORT/src/sorting/combSort/combSortSimple.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="25" column="56" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
+        <state relative-caret-position="180">
+          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-end-line="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -497,11 +543,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Algoritmos SORT/src/sorting/gnomeSort/gnomeSortSimple.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        <state relative-caret-position="690">
+          <caret line="46" column="77" lean-forward="true" selection-start-line="46" selection-start-column="77" selection-end-line="46" selection-end-column="77" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/R04-01/src/main/java/sorting/variationsOfBubblesort/GnomeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/R04-01/src/test/java/sorting/test/StudentSortingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="104" column="24" selection-start-line="104" selection-start-column="24" selection-end-line="104" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/R04-01/src/main/java/sorting/variationsOfBubblesort/CombSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -545,7 +612,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>10</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -557,11 +624,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Algoritmos SORT</last-edited>
+          <last-edited>R04-01</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
