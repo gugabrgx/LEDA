@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="PP1-01" />
         <module name="R01-01" />
         <module name="R02-01" />
         <module name="R03-01" />
@@ -18,6 +19,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="PP1-01" target="1.8" />
       <module name="R01-01" target="1.8" />
       <module name="R02-01" target="1.8" />
       <module name="R03-01" target="1.8" />
