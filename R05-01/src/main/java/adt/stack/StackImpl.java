@@ -9,8 +9,8 @@ public class StackImpl<T> implements Stack<T> {
 
 	@SuppressWarnings("unchecked")
 	public StackImpl(int size) {
-		array = (T[]) new Object[size];
-		top = -1;
+		this.array = (T[]) new Object[size];
+		this.top = -1;
 	}
 
 	@Override
@@ -19,26 +19,26 @@ public class StackImpl<T> implements Stack<T> {
 	    if (isEmpty()) {
 	        result = null;
         } else {
-	        result = array[top];
+	        result = this.array[top];
         }
 	    return result;
 	}
 
 	@Override
 	public boolean isEmpty() {
-        return top == -1;
+        return this.top == -1;
 	}
 
     @Override
     public boolean isFull() {
-        return top == array.length - 1;
+        return this.top == this.array.length - 1;
     }
 
     @Override
     public void push(T element) throws StackOverflowException {
         if (isFull()) throw new StackOverflowException();
         if (element != null) {
-            array[++top] = element;
+            this.array[++this.top] = element;
         }
     }
 
@@ -46,8 +46,8 @@ public class StackImpl<T> implements Stack<T> {
 	public T pop() throws StackUnderflowException {
         T result;
         if (!isEmpty()) {
-            result = array[top];
-            array = Arrays.copyOfRange(array, 0, top-1);
+            result = this.array[this.top];
+            this.array = Arrays.copyOfRange(this.array, 0, top-1);
         } else {
 	        throw new StackUnderflowException();
         }

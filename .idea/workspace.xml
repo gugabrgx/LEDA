@@ -8,10 +8,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="adb27d06-7f2a-4797-ba80-95873deed05b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/R05-01/src/main/java/adt/queue/CircularQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/R05-01/src/main/java/adt/queue/CircularQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/R05-01/src/main/java/adt/queue/QueueImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/R05-01/src/main/java/adt/queue/QueueImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/R05-01/src/main/java/adt/stack/StackImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/R05-01/src/main/java/adt/stack/StackImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/R05-01/src/test/java/adt/queue/StudentQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/R05-01/src/test/java/adt/queue/StudentQueueTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/R03-01/target/" />
     <ignored path="$PROJECT_DIR$/R01-01/target/" />
@@ -46,26 +46,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="57" />
+          <entry key="java" value="63" />
           <entry key="xml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="57" />
+          <entry key="JAVA" value="63" />
           <entry key="XML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="5353" />
+          <entry key="java" value="6254" />
           <entry key="txt" value="7" />
           <entry key="xml" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5353" />
+          <entry key="JAVA" value="6254" />
           <entry key="PLAIN_TEXT" value="7" />
           <entry key="XML" value="15" />
         </counts>
@@ -103,74 +103,72 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/R05-01/src/main/java/adt/queue/CircularQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="66" lean-forward="true" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/R05-01/src/main/java/adt/stack/StackImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="49" column="46" selection-start-line="49" selection-start-column="46" selection-end-line="49" selection-end-column="46" />
-              <folding>
-                <element signature="method#top#0;class#StackImpl#0" />
-                <element signature="e#440#441#0" expanded="true" />
-                <element signature="e#469#470#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/R05-01/src/main/java/adt/stack/Stack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="19" column="51" lean-forward="true" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
-              <folding>
-                <element signature="docComment;method#top#0;class#Stack#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/R05-01/src/test/java/adt/queue/StudentQueueTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-              <folding>
-                <element signature="method#testIsEmpty#0;class#StudentQueueTest#0" />
-                <element signature="method#testIsFull#0;class#StudentQueueTest#0" />
-                <element signature="method#testEnqueue#0;class#StudentQueueTest#0" />
-                <element signature="method#testDequeue#0;class#StudentQueueTest#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/R05-01/src/test/java/adt/stack/StudentStackTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="36" column="36" lean-forward="true" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
-              <folding>
-                <element signature="method#testIsFull#0;class#StudentStackTest#0" />
-                <element signature="method#testPush#0;class#StudentStackTest#0" />
-                <element signature="method#testPushComErro#0;class#StudentStackTest#0" />
-                <element signature="method#testPop#0;class#StudentStackTest#0" />
-                <element signature="method#testPopComErro#0;class#StudentStackTest#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5304348">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/R05-01/src/main/java/adt/queue/Queue.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="490">
+                  <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/R05-01/src/main/java/adt/queue/CircularQueue.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="190">
+                  <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+                  <folding>
+                    <element signature="method#CircularQueue#0;class#CircularQueue#0" />
+                    <element signature="method#head#0;class#CircularQueue#0" />
+                    <element signature="method#dequeue#0;class#CircularQueue#0" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/R05-01/src/test/java/adt/queue/StudentQueueTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="415">
+                  <caret line="58" column="16" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
+                  <folding>
+                    <element signature="method#testIsEmpty#0;class#StudentQueueTest#0" />
+                    <element signature="method#testIsFull#0;class#StudentQueueTest#0" />
+                    <element signature="method#testDequeue#0;class#StudentQueueTest#0" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/R05-01/src/main/java/adt/queue/QueueImpl.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="450">
+                  <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+                  <folding>
+                    <element signature="method#QueueImpl#0;class#QueueImpl#0" />
+                    <element signature="method#enqueue#0;class#QueueImpl#0" />
+                    <element signature="method#shiftLeft#0;class#QueueImpl#0" />
+                    <element signature="e#927#928#0" expanded="true" />
+                    <element signature="e#965#966#0" expanded="true" />
+                    <element signature="e#1010#1011#0" expanded="true" />
+                    <element signature="e#1065#1066#0" expanded="true" />
+                    <element signature="method#head#0;class#QueueImpl#0" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -203,12 +201,12 @@
         <option value="$PROJECT_DIR$/R04-01/src/test/java/sorting/test/StudentSortingTest.java" />
         <option value="$PROJECT_DIR$/PP1-01/pom.xml" />
         <option value="$PROJECT_DIR$/PP1-01/src/main/java/problems/FloorBinarySearchImpl.java" />
-        <option value="$PROJECT_DIR$/R05-01/src/main/java/adt/queue/CircularQueue.java" />
-        <option value="$PROJECT_DIR$/R05-01/src/test/java/adt/queue/StudentQueueTest.java" />
         <option value="$PROJECT_DIR$/R05-01/src/main/java/adt/queue/Queue.java" />
-        <option value="$PROJECT_DIR$/R05-01/src/main/java/adt/queue/QueueImpl.java" />
         <option value="$PROJECT_DIR$/R05-01/src/test/java/adt/stack/StudentStackTest.java" />
         <option value="$PROJECT_DIR$/R05-01/src/main/java/adt/stack/StackImpl.java" />
+        <option value="$PROJECT_DIR$/R05-01/src/main/java/adt/queue/QueueImpl.java" />
+        <option value="$PROJECT_DIR$/R05-01/src/test/java/adt/queue/StudentQueueTest.java" />
+        <option value="$PROJECT_DIR$/R05-01/src/main/java/adt/queue/CircularQueue.java" />
       </list>
     </option>
   </component>
@@ -230,7 +228,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="4">
     <option name="y" value="27" />
-    <option name="width" value="1254" />
+    <option name="width" value="1324" />
     <option name="height" value="1053" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -339,7 +337,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538072042971" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538074472405" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/R05-01" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -364,7 +362,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StudentStackTest">
+  <component name="RunManager" selected="JUnit.StudentQueueTest">
     <configuration name="FloorBinarySearchImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="problems.FloorBinarySearchImpl" />
       <module name="PP1-01" />
@@ -445,8 +443,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StudentStackTest" />
         <item itemvalue="JUnit.StudentQueueTest" />
+        <item itemvalue="JUnit.StudentStackTest" />
         <item itemvalue="Application.FloorBinarySearchImpl" />
         <item itemvalue="JUnit.StudentSortingTest" />
         <item itemvalue="JUnit.StudentSortingTest.testSort06" />
@@ -467,24 +465,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StudentQueueTest - 2018.09.27 at 14h 46m 51s.xml">
-      <configuration name="StudentQueueTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentQueueTest - 2018.09.27 at 14h 47m 51s.xml">
-      <configuration name="StudentQueueTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentQueueTest - 2018.09.27 at 14h 48m 03s.xml">
-      <configuration name="StudentQueueTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentQueueTest - 2018.09.27 at 14h 48m 14s.xml">
-      <configuration name="StudentQueueTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentQueueTest - 2018.09.27 at 14h 48m 26s.xml">
-      <configuration name="StudentQueueTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentQueueTest - 2018.09.27 at 14h 48m 39s.xml">
-      <configuration name="StudentQueueTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="StudentQueueTest - 2018.09.27 at 14h 48m 49s.xml">
       <configuration name="StudentQueueTest" configurationId="JUnit" />
     </history-entry>
@@ -497,12 +477,30 @@
     <history-entry file="StudentQueueTest - 2018.09.27 at 15h 02m 17s.xml">
       <configuration name="StudentQueueTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="StudentStackTest - 2018.09.27 at 15h 14m 06s.xml">
+      <configuration name="StudentStackTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentStackTest - 2018.09.27 at 15h 14m 57s.xml">
+      <configuration name="StudentStackTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentStackTest - 2018.09.27 at 15h 50m 41s.xml">
+      <configuration name="StudentStackTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentQueueTest - 2018.09.27 at 15h 50m 51s.xml">
+      <configuration name="StudentQueueTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentQueueTest - 2018.09.27 at 15h 51m 23s.xml">
+      <configuration name="StudentQueueTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentQueueTest - 2018.09.27 at 15h 51m 29s.xml">
+      <configuration name="StudentQueueTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1254" height="1053" extended-state="4" />
+    <frame x="0" y="27" width="1324" height="1053" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20115894" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19014084" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -730,48 +728,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/R05-01/src/main/java/adt/queue/CircularQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="66" lean-forward="true" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/R05-01/src/main/java/adt/queue/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/R05-01/src/main/java/adt/queue/QueueImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
-          <folding>
-            <element signature="method#QueueImpl#0;class#QueueImpl#0" />
-            <element signature="method#enqueue#0;class#QueueImpl#0" />
-            <element signature="method#dequeue#0;class#QueueImpl#0" />
-            <element signature="e#933#934#0" expanded="true" />
-            <element signature="e#978#979#0" expanded="true" />
-            <element signature="method#shiftLeft#0;class#QueueImpl#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/R05-01/src/test/java/adt/queue/StudentQueueTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="method#testIsEmpty#0;class#StudentQueueTest#0" />
-            <element signature="method#testIsFull#0;class#StudentQueueTest#0" />
-            <element signature="method#testEnqueue#0;class#StudentQueueTest#0" />
-            <element signature="method#testDequeue#0;class#StudentQueueTest#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/R05-01/src/main/java/adt/stack/Stack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -782,28 +738,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/R05-01/src/main/java/adt/stack/StackImpl.java">
+    <entry file="file://$PROJECT_DIR$/R05-01/src/main/java/adt/stack/StackOverflowException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="49" column="46" selection-start-line="49" selection-start-column="46" selection-end-line="49" selection-end-column="46" />
-          <folding>
-            <element signature="method#top#0;class#StackImpl#0" />
-            <element signature="e#440#441#0" expanded="true" />
-            <element signature="e#469#470#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/R05-01/src/test/java/adt/stack/StudentStackTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="36" column="36" lean-forward="true" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+        <state relative-caret-position="360">
+          <caret line="52" column="30" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
           <folding>
-            <element signature="method#testIsFull#0;class#StudentStackTest#0" />
             <element signature="method#testPush#0;class#StudentStackTest#0" />
-            <element signature="method#testPushComErro#0;class#StudentStackTest#0" />
             <element signature="method#testPop#0;class#StudentStackTest#0" />
-            <element signature="method#testPopComErro#0;class#StudentStackTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/R05-01/src/main/java/adt/stack/StackImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="45" column="50" selection-start-line="45" selection-start-column="50" selection-end-line="45" selection-end-column="50" />
+          <folding>
+            <element signature="method#StackImpl#0;class#StackImpl#0" />
+            <element signature="method#top#0;class#StackImpl#0" />
+            <element signature="method#push#0;class#StackImpl#0" />
+            <element signature="method#pop#0;class#StackImpl#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/R05-01/src/main/java/adt/queue/QueueImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+          <folding>
+            <element signature="method#QueueImpl#0;class#QueueImpl#0" />
+            <element signature="method#enqueue#0;class#QueueImpl#0" />
+            <element signature="method#shiftLeft#0;class#QueueImpl#0" />
+            <element signature="e#927#928#0" expanded="true" />
+            <element signature="e#965#966#0" expanded="true" />
+            <element signature="e#1010#1011#0" expanded="true" />
+            <element signature="e#1065#1066#0" expanded="true" />
+            <element signature="method#head#0;class#QueueImpl#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/R05-01/src/main/java/adt/queue/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/R05-01/src/test/java/adt/queue/StudentQueueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="58" column="16" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
+          <folding>
+            <element signature="method#testIsEmpty#0;class#StudentQueueTest#0" />
+            <element signature="method#testIsFull#0;class#StudentQueueTest#0" />
+            <element signature="method#testDequeue#0;class#StudentQueueTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/R05-01/src/main/java/adt/queue/CircularQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+          <folding>
+            <element signature="method#CircularQueue#0;class#CircularQueue#0" />
+            <element signature="method#head#0;class#CircularQueue#0" />
+            <element signature="method#dequeue#0;class#CircularQueue#0" />
           </folding>
         </state>
       </provider>
