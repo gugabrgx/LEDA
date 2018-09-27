@@ -16,9 +16,6 @@ public class FloorBinarySearchImpl implements Floor {
         if (array == null || array.length == 0) {
             return null;
         }
-        /*if (array.length == 1 && array[0] <= x) {
-            return array[0];
-        }*/
         return auxiliar(array, 0, array.length-1, x);
     }
 
