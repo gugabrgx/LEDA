@@ -8,7 +8,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="adb27d06-7f2a-4797-ba80-95873deed05b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/PP1-01/src/main/java/problems/FloorBinarySearchImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/PP1-01/src/main/java/problems/FloorBinarySearchImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/R03-01/target/" />
     <ignored path="$PROJECT_DIR$/R01-01/target/" />
@@ -18,6 +21,7 @@
     <ignored path="$PROJECT_DIR$/RR3-01/target/" />
     <ignored path="$PROJECT_DIR$/R04-01/target/" />
     <ignored path="$PROJECT_DIR$/PP1-01/target/" />
+    <ignored path="$PROJECT_DIR$/R05-01/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,32 +39,33 @@
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.27" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="39" />
-          <entry key="xml" value="3" />
+          <entry key="java" value="57" />
+          <entry key="xml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="39" />
-          <entry key="XML" value="3" />
+          <entry key="JAVA" value="57" />
+          <entry key="XML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4107" />
+          <entry key="java" value="5353" />
           <entry key="txt" value="7" />
           <entry key="xml" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4107" />
+          <entry key="JAVA" value="5353" />
           <entry key="PLAIN_TEXT" value="7" />
           <entry key="XML" value="15" />
         </counts>
@@ -100,37 +105,67 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PP1-01/src/main/java/problems/Floor.java">
+        <entry file="file://$PROJECT_DIR$/R05-01/src/main/java/adt/queue/CircularQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+            <state relative-caret-position="255">
+              <caret line="17" column="66" lean-forward="true" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/R05-01/src/main/java/adt/stack/StackImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="49" column="46" selection-start-line="49" selection-start-column="46" selection-end-line="49" selection-end-column="46" />
+              <folding>
+                <element signature="method#top#0;class#StackImpl#0" />
+                <element signature="e#440#441#0" expanded="true" />
+                <element signature="e#469#470#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/R05-01/src/main/java/adt/stack/Stack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="19" column="51" lean-forward="true" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+              <folding>
+                <element signature="docComment;method#top#0;class#Stack#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/R05-01/src/test/java/adt/queue/StudentQueueTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="method#testIsEmpty#0;class#StudentQueueTest#0" />
+                <element signature="method#testIsFull#0;class#StudentQueueTest#0" />
+                <element signature="method#testEnqueue#0;class#StudentQueueTest#0" />
+                <element signature="method#testDequeue#0;class#StudentQueueTest#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PP1-01/src/main/java/problems/FloorBinarySearchImpl.java">
+        <entry file="file://$PROJECT_DIR$/R05-01/src/test/java/adt/stack/StudentStackTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="20" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/R02-01/src/main/java/sorting/divideAndConquer/QuickSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="16" column="16" selection-start-line="16" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PP1-01/src/main/java/util/Util.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+            <state relative-caret-position="265">
+              <caret line="36" column="36" lean-forward="true" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+              <folding>
+                <element signature="method#testIsFull#0;class#StudentStackTest#0" />
+                <element signature="method#testPush#0;class#StudentStackTest#0" />
+                <element signature="method#testPushComErro#0;class#StudentStackTest#0" />
+                <element signature="method#testPop#0;class#StudentStackTest#0" />
+                <element signature="method#testPopComErro#0;class#StudentStackTest#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -168,6 +203,12 @@
         <option value="$PROJECT_DIR$/R04-01/src/test/java/sorting/test/StudentSortingTest.java" />
         <option value="$PROJECT_DIR$/PP1-01/pom.xml" />
         <option value="$PROJECT_DIR$/PP1-01/src/main/java/problems/FloorBinarySearchImpl.java" />
+        <option value="$PROJECT_DIR$/R05-01/src/main/java/adt/queue/CircularQueue.java" />
+        <option value="$PROJECT_DIR$/R05-01/src/test/java/adt/queue/StudentQueueTest.java" />
+        <option value="$PROJECT_DIR$/R05-01/src/main/java/adt/queue/Queue.java" />
+        <option value="$PROJECT_DIR$/R05-01/src/main/java/adt/queue/QueueImpl.java" />
+        <option value="$PROJECT_DIR$/R05-01/src/test/java/adt/stack/StudentStackTest.java" />
+        <option value="$PROJECT_DIR$/R05-01/src/main/java/adt/stack/StackImpl.java" />
       </list>
     </option>
   </component>
@@ -180,23 +221,17 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Submissao de roteiro" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="260" />
-    <option name="y" value="53" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+  <component name="ProjectFrameBounds" extendedState="4">
+    <option name="y" value="27" />
+    <option name="width" value="1254" />
+    <option name="height" value="1053" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -204,43 +239,108 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="LEDA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PP1-01" type="462c0819:PsiDirectoryNode" />
+              <item name="R05-01" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LEDA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PP1-01" type="462c0819:PsiDirectoryNode" />
+              <item name="R05-01" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LEDA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PP1-01" type="462c0819:PsiDirectoryNode" />
+              <item name="R05-01" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LEDA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PP1-01" type="462c0819:PsiDirectoryNode" />
+              <item name="R05-01" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LEDA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="R05-01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="adt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LEDA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="R05-01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="adt" type="462c0819:PsiDirectoryNode" />
+              <item name="queue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LEDA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="R05-01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="adt" type="462c0819:PsiDirectoryNode" />
+              <item name="stack" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LEDA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="R05-01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LEDA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="R05-01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LEDA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="R05-01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="adt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LEDA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="R05-01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="adt" type="462c0819:PsiDirectoryNode" />
+              <item name="queue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LEDA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="R05-01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="adt" type="462c0819:PsiDirectoryNode" />
+              <item name="stack" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537459102908" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/PP1-01" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538072042971" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/R05-01" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -264,20 +364,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FloorBinarySearchImpl">
-    <configuration name="CountingSortSimple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sorting.countingSort.CountingSortSimple" />
-      <module name="Algoritmos SORT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sorting.countingSort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.StudentStackTest">
     <configuration name="FloorBinarySearchImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="problems.FloorBinarySearchImpl" />
       <module name="PP1-01" />
@@ -291,15 +378,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="gnomeSortSimple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sorting.gnomeSort.gnomeSortSimple" />
-      <module name="Algoritmos SORT" />
+    <configuration name="StudentQueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="R05-01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sorting.gnomeSort.*" />
+          <option name="PATTERN" value="adt.queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="adt.queue" />
+      <option name="MAIN_CLASS_NAME" value="adt.queue.StudentQueueTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -334,20 +422,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StudentStackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="R05-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="adt.stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="adt.stack" />
+      <option name="MAIN_CLASS_NAME" value="adt.stack.StudentStackTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.CountingSortSimple" />
-      <item itemvalue="Application.gnomeSortSimple" />
       <item itemvalue="JUnit.StudentSortingTest" />
       <item itemvalue="JUnit.StudentSortingTest.testSort06" />
       <item itemvalue="Application.FloorBinarySearchImpl" />
+      <item itemvalue="JUnit.StudentQueueTest" />
+      <item itemvalue="JUnit.StudentStackTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StudentStackTest" />
+        <item itemvalue="JUnit.StudentQueueTest" />
         <item itemvalue="Application.FloorBinarySearchImpl" />
         <item itemvalue="JUnit.StudentSortingTest" />
         <item itemvalue="JUnit.StudentSortingTest.testSort06" />
-        <item itemvalue="Application.gnomeSortSimple" />
-        <item itemvalue="Application.CountingSortSimple" />
       </list>
     </recent_temporary>
   </component>
@@ -365,42 +467,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StudentSortingTest - 2018.09.17 at 17h 13m 19s.xml">
-      <configuration name="StudentSortingTest" configurationId="JUnit" />
+    <history-entry file="StudentQueueTest - 2018.09.27 at 14h 46m 51s.xml">
+      <configuration name="StudentQueueTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentSortingTest - 2018.09.17 at 17h 14m 33s.xml">
-      <configuration name="StudentSortingTest" configurationId="JUnit" />
+    <history-entry file="StudentQueueTest - 2018.09.27 at 14h 47m 51s.xml">
+      <configuration name="StudentQueueTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentSortingTest - 2018.09.17 at 17h 15m 43s.xml">
-      <configuration name="StudentSortingTest" configurationId="JUnit" />
+    <history-entry file="StudentQueueTest - 2018.09.27 at 14h 48m 03s.xml">
+      <configuration name="StudentQueueTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentSortingTest - 2018.09.17 at 17h 15m 50s.xml">
-      <configuration name="StudentSortingTest" configurationId="JUnit" />
+    <history-entry file="StudentQueueTest - 2018.09.27 at 14h 48m 14s.xml">
+      <configuration name="StudentQueueTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentSortingTest - 2018.09.17 at 17h 16m 12s.xml">
-      <configuration name="StudentSortingTest" configurationId="JUnit" />
+    <history-entry file="StudentQueueTest - 2018.09.27 at 14h 48m 26s.xml">
+      <configuration name="StudentQueueTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentSortingTest - 2018.09.17 at 17h 16m 57s.xml">
-      <configuration name="StudentSortingTest" configurationId="JUnit" />
+    <history-entry file="StudentQueueTest - 2018.09.27 at 14h 48m 39s.xml">
+      <configuration name="StudentQueueTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentSortingTest - 2018.09.17 at 17h 18m 03s.xml">
-      <configuration name="StudentSortingTest" configurationId="JUnit" />
+    <history-entry file="StudentQueueTest - 2018.09.27 at 14h 48m 49s.xml">
+      <configuration name="StudentQueueTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentSortingTest - 2018.09.17 at 17h 19m 00s.xml">
-      <configuration name="StudentSortingTest" configurationId="JUnit" />
+    <history-entry file="StudentQueueTest - 2018.09.27 at 14h 49m 50s.xml">
+      <configuration name="StudentQueueTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentSortingTest_testSort06 - 2018.09.17 at 17h 19m 56s.xml">
-      <configuration name="StudentSortingTest.testSort06" configurationId="JUnit" />
+    <history-entry file="StudentQueueTest - 2018.09.27 at 14h 59m 46s.xml">
+      <configuration name="StudentQueueTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentSortingTest - 2018.09.17 at 17h 21m 31s.xml">
-      <configuration name="StudentSortingTest" configurationId="JUnit" />
+    <history-entry file="StudentQueueTest - 2018.09.27 at 15h 02m 17s.xml">
+      <configuration name="StudentQueueTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
+    <frame x="0" y="27" width="1254" height="1053" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12860192" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20115894" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -409,12 +511,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4994664" weight="0.32901832" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4994664" visible="true" weight="0.32901832" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32901832" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32901832" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50053364" side_tool="true" weight="0.32901832" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4994664" weight="0.32901832" />
@@ -425,7 +527,7 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.226254" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.226254" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -555,13 +657,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/R04-01/src/test/java/sorting/test/StudentSortingTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="104" column="24" selection-start-line="104" selection-start-column="24" selection-end-line="104" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/R04-01/src/main/java/sorting/variationsOfBubblesort/CombSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -576,17 +671,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PP1-01/src/main/java/util/Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/R02-01/src/main/java/sorting/divideAndConquer/MergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PP1-01/src/main/java/problems/FloorBinarySearchImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="20" selection-start-line="17" selection-start-column="9" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PP1-01/src/main/java/problems/Floor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -597,17 +699,112 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PP1-01/src/main/java/problems/Floor.java">
+    <entry file="file://$PROJECT_DIR$/PP1-01/src/main/java/util/Util.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        <state relative-caret-position="540">
+          <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PP1-01/src/main/java/problems/FloorBinarySearchImpl.java">
+    <entry file="file://$PROJECT_DIR$/R05-01/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/R05-01/src/main/java/adt/queue/QueueOverflowException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="20" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/R04-01/src/test/java/sorting/test/StudentSortingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1185">
+          <caret line="104" column="24" selection-start-line="104" selection-start-column="24" selection-end-line="104" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/R05-01/src/main/java/adt/queue/QueueUnderflowException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/R05-01/src/main/java/adt/queue/CircularQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="66" lean-forward="true" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/R05-01/src/main/java/adt/queue/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/R05-01/src/main/java/adt/queue/QueueImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
+          <folding>
+            <element signature="method#QueueImpl#0;class#QueueImpl#0" />
+            <element signature="method#enqueue#0;class#QueueImpl#0" />
+            <element signature="method#dequeue#0;class#QueueImpl#0" />
+            <element signature="e#933#934#0" expanded="true" />
+            <element signature="e#978#979#0" expanded="true" />
+            <element signature="method#shiftLeft#0;class#QueueImpl#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/R05-01/src/test/java/adt/queue/StudentQueueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="method#testIsEmpty#0;class#StudentQueueTest#0" />
+            <element signature="method#testIsFull#0;class#StudentQueueTest#0" />
+            <element signature="method#testEnqueue#0;class#StudentQueueTest#0" />
+            <element signature="method#testDequeue#0;class#StudentQueueTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/R05-01/src/main/java/adt/stack/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="19" column="51" lean-forward="true" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+          <folding>
+            <element signature="docComment;method#top#0;class#Stack#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/R05-01/src/main/java/adt/stack/StackImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="49" column="46" selection-start-line="49" selection-start-column="46" selection-end-line="49" selection-end-column="46" />
+          <folding>
+            <element signature="method#top#0;class#StackImpl#0" />
+            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#469#470#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/R05-01/src/test/java/adt/stack/StudentStackTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="36" column="36" lean-forward="true" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+          <folding>
+            <element signature="method#testIsFull#0;class#StudentStackTest#0" />
+            <element signature="method#testPush#0;class#StudentStackTest#0" />
+            <element signature="method#testPushComErro#0;class#StudentStackTest#0" />
+            <element signature="method#testPop#0;class#StudentStackTest#0" />
+            <element signature="method#testPopComErro#0;class#StudentStackTest#0" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -663,7 +860,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>PP1-01</last-edited>
+          <last-edited>R05-01</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
